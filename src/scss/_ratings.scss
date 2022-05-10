@@ -3,31 +3,61 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 30em;
 
   .ratings-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 80%;
     height: 20em;
+    margin-top: 2em;
 
     .imbd {
       height: 100%;
       margin: 1em;
+      text-align: center;
+      width: 20%;
 
       .rating_75 {
         height: 75%;
-        background-color: red;
+        background-color: grey;
+        margin-top: 2em;
+      }
+
+      h3 {
+        margin: 0;
       }
     }
 
     .rotten {
       height: 100%;
-      margin: 1em;
+      margin-bottom: 2em;
+      text-align: center;
+      width: 20%;
 
       .rating_90 {
         height: 90%;
-        background-color: red;
+        background-color: grey;
+      }
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .meta {
+      height: 100%;
+      margin: 1em;
+      text-align: center;
+      width: 20%;
+
+      .rating_85 {
+        height: 85%;
+        background-color: grey;
+      }
+      h3 {
+        margin: 0;
       }
     }
   }
