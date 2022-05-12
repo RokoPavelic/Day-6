@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: lightgrey;
+  font-family: "Roboto", sans-serif;
 }
 
 @import "nav";
@@ -15,3 +16,5 @@ body {
 @import "plot";
 @import "_characters";
 @import "_ratings";
+@import "cast";
+@import "gallery";
